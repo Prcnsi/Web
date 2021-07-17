@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>병원 예약</title>
+  <style>
+    hr {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <fieldset>
+    <legend>바로 예약</legend>
+    <h3>내진 받을 일자와 받을 과를 선택해 주세요.</h3>
+  
+    <form>
+      <label>성함
+        <input type="text"><br>
+      </label>
+      <label>
+        주민번호 앞자리
+        <input type="number"><br>
+      </label>
+      <label>
+        전화 번호
+        <input type="number" placeholder="숫자만 입력해 주세요."><br>
+      </label>
+      <label>
+        진료 과목
+        <select>
+          <option>내과</option>
+          <option>외과</option>
+          <option>소아청소년과</option>
+          <option>병리과</option>
+          <option>영상의학과</option>
+          <option>마취통증의학과</option>
+          <option>치과</option>
+        </select><br>
+      </label>
+      <label>예약일
+        <input type="date"><br>
+      </label>
+      <label>예약 시간</label>
+      <input type="time"><br>
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </fieldset>
+</body>
+</html>
