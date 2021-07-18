@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>선택지 태그 정리</title>
+  <style>
+    #init{
+      width: 600px;
+      margin: 20px;
+    }
+    strong{
+      background-color:rgb(139, 139, 130);
+    }
+  </style>
+</head> 
+<body>
+  <form>
+    <fieldset>
+      <legend>selct와 datalist비교</legend>
+      <label>select 태그
+        <select>
+          <option>선택지1</option>
+          <option>선택지2</option>
+          <option>선택지3</option>
+          <option>선택지4</option>
+        </select>
+      </label><br>
+      <label> datalist태그</label>
+      <input list="language" id="choice" name="choice" />
+
+      <datalist  id="language">
+        <option value="선택지1">
+        <option value="선택지2">
+        <option value="선택지3">
+        <option value="선택지4">
+      </datalist><br>
+    </fieldset>
+    <fieldset>
+      <legend>input태그 속성 값 비교</legend>
+      <strong><label>속성값 radio</label></strong><br>
+      <label><input type="radio" name="seon">선택지1</label><br>
+      <label><input type="radio" name="seon">선택지2</label><br>
+      <label><input type="radio" name="seon">선택지3</label><br>
+      <label></label><input type="radio" name="seon">선택지4</label><br><br>
+      <strong><label>속성값 checkbox</label></strong><br>
+      <label><input type="checkbox">선택지1</label><br>
+      <label><input type="checkbox">선택지2</label><br>
+      <label><input type="checkbox">선택지3</label><br>
+      <label></label><input type="checkbox" name="seon">선택지4</label><br>
+      </label>
+    </fieldset>
+    <input type="submit" value="제출">
+    <input type="reset" value="되돌리기">
+  </form>
+</body>
+</html>
