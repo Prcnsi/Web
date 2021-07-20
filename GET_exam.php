@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>예제 페이지</title>
+        <title>GET방식</title>
     </head>
     <body>
         <?php 
