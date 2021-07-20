@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>예제 페이지</title>
+    </head>
     <body>
-        <h1>String exam</h1>
-        <?php
-            $old="21";
-            echo "Hi! I am ".$old."years old, <br>Is there any ".$old." age friend here?"
+        <?php 
+        $jiseon=21;
+        $minsu=23;
+        if($jiseon!=$minsu)
+        {
+            if($jiseon>$minsu)
+            {
+                echo "Jiseon is older than minsu";
+            }
+            else{
+                echo "Minsu is older than jiseon";
+            }
+        }
+        else
+        {
+            echo "Minsu and Jiseon is same age";
+        }
         ?>
     </body>
 </html>
